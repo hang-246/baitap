@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <form>
+        <h3>THÔNG TIN ĐĂNG NHẬP</h3>
+        <table>
+            <tr>
+                <td >Email: </td>
+                <td>
+                    <input type="text" name="email" size="20" >
+                </td>
+            </tr>
+            <tr>
+                <td >Mật khẩu: </td>
+                <td>
+                    <input type="text" name="mk" size="20" >
+                </td>
+            </tr>
+            <tr>
+                <td >Nhập lại mật khẩu: </td>
+                <td>
+                    <input type="text" name="nlmk" size="20" >
+                </td>
+            </tr>
+        </table>
+        <h3>THÔNG TIN CÁ NHÂN</h3>
+        <table>
+            <tr>
+                <td >*Họ và tên </td>
+                <td>
+                    <input type="text" name="ten" size="20" >
+                </td>
+            </tr>
+            <tr>
+                <td >Phái: </td>
+                <td>
+                    <input type="radio" name= use value="nam" >Nam
+                    <input type="radio" name= use value="nu" >Nữ
+                </td>
+            </tr>
+            <tr>
+                <td >Ngày sinh: </td>
+                <td>
+                    <select name="ngay">
+                        <option value=1>1
+                        <option value=2>2
+                        <option value=3>3
+                        <option value=4>4
+                        <option value=5>5
+                    </select>
+                </td>
+                <td>
+                    <select name="thang">
+                        <option value=1>1
+                        <option value=2>2
+                        <option value=3>3
+                        <option value=4>4
+                        <option value=5>5
+                    </select>
+                </td>
+                <td>
+                    <select name="nam">
+                        <option value=1>1999
+                        <option value=2>2000
+                        <option value=3>2001
+                        <option value=4>2002
+                        <option value=5>2003
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Tuổi</td>
+                <td>
+                    <input type="number" name="tuoi" min="1" max="100">
+                </td>
+            </tr>
+            <tr>
+                <td>*Số điện thoại: </td>
+                <td>
+                    <input type="text" name="sdt" size="20">
+                </td>
+            </tr>
+            <tr>
+                <td>Số di động: </td>
+                <td>
+                    <input type="text" name="sdt" size="20">
+                </td>
+            </tr>
+            <tr>
+                <td>Sở thích
+                    <td>
+                        <input type="checkbox" name="st" value="film">Xem phim
+                        <input type="checkbox" name="st" value="sach">Đọc sách
+                        <input type="checkbox" name="st" value="nhac">Nghe nhạc
+                    </td>
+                </td>
+            </tr>
+            <tr>
+                <td>Hình ảnh</td>
+                <td>
+                    <input type="file" >
+                </td>
+            </tr>
+        </table>
+        <table>
+            <h3>ĐỊA CHỈ</h3>
+            <tr>
+                <td>Quốc gia: </td>
+                <td>
+                    <select name="qg">
+                        <option value="1">Việt Nam
+                        <option value="2">Mỹ
+                        <option value="3">Hàn Quốc
+                        <option value="4">Nhật Bản
+                        <option value="5">Trung Quốc
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Tỉnh/thành: </td>
+                <td>
+                    <select name="qg">
+                        <option value="1">Hà Nội
+                        <option value="2">Đà Nẵng
+                        <option value="3">Hồ Chí Minh
+                        <option value="4">Cần Thơ
+                        <option value="5">Huế
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Quận/huyện: </td>
+                <td>
+                    <select name="qg">
+                        <option value="1">Ngũ Hành Sơn
+                        <option value="2">Hải Châu
+                        <option value="3">Sơn Trà
+                        <option value="4">Hoà Vang
+                        <option value="5">Thanh Khê
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Địa chỉ nhà</td>
+                <td>
+                    <textarea name="dc" id="" cols="50" rows="4"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <input type="Submit" value="Đăng ký" name="dk">
+                </td>
+                <td><input type="reset" value="Xoá form" name="xoa"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
